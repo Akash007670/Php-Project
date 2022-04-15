@@ -128,7 +128,7 @@
 
 
                     beforeSend: function() {
-                        $('#save').prop('disabled', true);
+                        $('#save').prop('enable', true);
                         $('#save').html('');
                         $('#save').append('<i class="fa fa-spinner fa-spin fa-1x fa-fw"></i>Saving</i>');
                     },
