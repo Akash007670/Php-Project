@@ -160,21 +160,21 @@
                         });
                         isNew = true;
                     },
-                    // error: function(xhr, status, error) {
-                    //     alert(xhr);
-                    //     console.log(xhr.responseText);
+                    error: function(xhr, status, error) {
+                        alert(xhr);
+                        console.log(xhr.responseText);
 
-                    //     $.alert({
-                    //         title: 'Fail!',
-                    //         //            content: xhr.responseJSON.errors.product_code + '<br>' + xhr.responseJSON.msg,
-                    //         type: 'red',
-                    //         autoClose: 'ok|2000'
+                        $.alert({
+                            title: 'Fail!',
+                            //            content: xhr.responseJSON.errors.product_code + '<br>' + xhr.responseJSON.msg,
+                            type: 'red',
+                            autoClose: 'ok|2000'
 
-                    //     });
-                    //     $('#save').prop('disabled', false);
-                    //     $('#save').html('');
-                    //     $('#save').append('Save');
-                    // },
+                        });
+                        $('#save').prop('disabled', false);
+                        $('#save').html('');
+                        $('#save').append('Save');
+                    },
 
                 });
 
@@ -240,21 +240,21 @@
 
                 },
 
-                // error: function(xhr, status, error) {
-                //     alert(xhr);
-                //     console.log(xhr.responseText);
+                error: function(xhr, status, error) {
+                    alert(xhr);
+                    console.log(xhr.responseText);
 
-                //     $.alert({
-                //         title: 'Fail!',
-                //         //            content: xhr.responseJSON.errors.product_code + '<br>' + xhr.responseJSON.msg,
-                //         type: 'red',
-                //         autoClose: 'ok|2000'
+                    $.alert({
+                        title: 'Fail!',
+                        //            content: xhr.responseJSON.errors.product_code + '<br>' + xhr.responseJSON.msg,
+                        type: 'red',
+                        autoClose: 'ok|2000'
 
-                //     });
-                //     $('#save').prop('disabled', false);
-                //     $('#save').html('');
-                //     $('#save').append('Save');
-                // },
+                    });
+                    $('#save').prop('disabled', false);
+                    $('#save').html('');
+                    $('#save').append('Save');
+                },
 
 
 
@@ -289,18 +289,18 @@
                     $('#status').val(data.status);
                     $('#frmProject').modal('show');
                 },
-                // error: function(xhr, status, error) {
-                //     alert(xhr);
-                //     console.log(xhr.responseText);
+                error: function(xhr, status, error) {
+                    alert(xhr);
+                    console.log(xhr.responseText);
 
-                //     $.alert({
-                //         title: 'Fail!',
-                //         //            content: xhr.responseJSON.errors.product_code + '<br>' + xhr.responseJSON.msg,
-                //         type: 'red',
-                //         autoClose: 'ok|2000'
+                    $.alert({
+                        title: 'Fail!',
+                        //            content: xhr.responseJSON.errors.product_code + '<br>' + xhr.responseJSON.msg,
+                        type: 'red',
+                        autoClose: 'ok|2000'
 
-                //     });
-                // },
+                    });
+                },
 
             });
         }
@@ -329,18 +329,18 @@
                             },
 
 
-                            // error: function(xhr, status, error) {
-                            //     alert(xhr);
-                            //     console.log(xhr.responseText);
+                            error: function(xhr, status, error) {
+                                alert(xhr);
+                                console.log(xhr.responseText);
 
-                            //     $.alert({
-                            //         title: 'Fail!',
-                            //         //            content: xhr.responseJSON.errors.product_code + '<br>' + xhr.responseJSON.msg,
-                            //         type: 'red',
-                            //         autoClose: 'ok|2000'
+                                $.alert({
+                                    title: 'Fail!',
+                                    //            content: xhr.responseJSON.errors.product_code + '<br>' + xhr.responseJSON.msg,
+                                    type: 'red',
+                                    autoClose: 'ok|2000'
 
-                            //     });
-                            // },
+                                });
+                            },
 
 
 
